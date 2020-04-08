@@ -2,14 +2,6 @@ body{
     background-color: #2c3e50;
     color: white;
   }
-  
-  h1{
-      color: #34495e;
-  }
-
-  .clicked {
-      color: #7f8c8d;
-  }
 
   .form,
   .greetings {
@@ -39,3 +31,71 @@ body{
       animation: fadeIn 1s linear;
   }
 
+  .center-content{
+      text-align: center;
+      text-shadow: 0 0 25px rgba(0,0,0,0.3);
+  }
+
+  .js-clock{
+      font-size: 50px;
+  }
+
+  .js-clock h1{
+      margin-top: 150px;
+      margin-bottom: 0;
+  }
+ 
+  .js-greetings{
+      margin-top: -20px;
+      margin-bottom: 20px;
+      font-size: 50px;
+      font-weight: 300;
+  }
+
+  .js-toDoForm {
+      margin: 0 auto;
+  }
+
+  .js-toDoForm input{
+      width: 250px;
+      background-color: rgba(255,255,255,0.8);
+      border: none;
+      padding: 10px;
+  }
+
+  .js-toDoForm input:focus{
+      outline: none;
+  }
+
+  .js-toDoList {
+      list-style-type: none;
+      margin: 15px auto;
+      width: 270px;
+      text-align: left;
+      padding: 0;
+  }
+
+  .js-toDoItem{
+      margin: 10px 0;
+  }
+
+  .js-toDoDelBtn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+    background-color: rgba(255,255,255,0.8);
+  }
+
+  .js-toDoDelBtn:hover {
+      cursor: pointer;
+  }
+
+  .js-toDoSpan{
+      padding: 5px;
+  }
+  
+  .js-weather {
+      position: absolute;
+      bottom: 20px;
+      left:20px;
+  }
